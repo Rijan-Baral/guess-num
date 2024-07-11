@@ -1,0 +1,178 @@
+*{
+  padding: 0%;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Retro Gaming";
+  /* color: white; */
+  
+  
+  src: url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.eot");
+  src: url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.svg#Retro Gaming")format("svg");
+}
+
+
+body{
+  background-color: #1e1d1d;
+position: relative;
+height: 100vh;
+width: 100%;
+
+}
+
+.title{
+background-color: black;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ff4b33;
+}
+
+.text{
+  justify-content: center;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  background-color: #d4d1d1;
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.secret{
+  display: flex;
+  justify-content: center;
+    /* background-color: black; */
+    margin-top: 20px;
+  }
+
+.secretNumber{
+  background-color: #d4d1d1;
+  width: 200px;
+  height: 180px;
+  font-size: 100px;
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 400px;
+  margin-right: 325px;
+}
+
+.left{
+  /* background-color: yellow; */
+  width: fit-content;
+  background-color: black;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.right{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+align-items: start;
+color: #d4d1d1;
+font-size: 20px;
+}
+
+.input input{
+  height: 80px;
+  width: 200PX;
+  color: black;
+font-size: 70px;
+border-radius: 30px;
+background-color: #d4d1d1;
+text-align: center;
+
+}
+
+.check button{
+  color: black;
+  background-color: #d4d1d1;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+
+
+.popup{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.popup2{
+
+  height: 20%;
+  width: 20%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+.again{
+  background-clip: red;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  border: 4PX;
+  border-top-color: black;
+  border-bottom-color: #d4d1d1;
+
+}
+#btn{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #d4d1d1;
+
+}
+
+.highscore{
+  background-color: #282828;
+}
+.score{
+  background-color: #282828;
+}
+.guess{
+  background-color: #282828;
+}
